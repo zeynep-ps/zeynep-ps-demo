@@ -138,6 +138,8 @@ const IndexPage = () => {
           <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
           <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
         </div>
+          <button onClick={() => window.ps.show({ id: 184508 })}>onClick</button>
+
       </div>
       <AttributeGrid />
     </Layout>
